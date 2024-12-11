@@ -1,0 +1,133 @@
+
+.top-text{/*first box text*/
+  margin-top: 5px;
+  font-size: 13px;
+  text-align: center;
+  margin-bottom: -3px;
+}
+span {
+  content: "\2192";
+  font-size: 20px;
+
+}
+
+.top-box{/*top box border line align*/
+  border-bottom:1px solid gray;
+}
+.paper-image{/*papergrid image*/
+  width: 120px;
+    height: 26px;
+    margin-left: 55px;
+    margin-top: 30px;
+    }
+    header{
+      display: flex;
+      width: 100%;
+    }
+
+    ul { 
+    display: flex; 
+    margin: 0;
+    padding: 0; }
+
+header {
+  display: flex;
+  align-items: center; /* Centers items vertically */
+}
+
+.paper-image {
+  max-width: 111px; /* Adjust size as needed */
+  margin-left: 4rem;
+}
+.navbar-nav {
+  margin-left: 4rem;
+  display: flex;
+  gap: 1rem; /* Adds space between the nav links */
+}
+
+.nav-link {
+  color: white; /* Ensures text color is white */
+  padding: 0; /* Removes default padding */
+}
+
+.top-text {
+  margin: 0; /* Removes extra margin */
+}
+.nav-item:hover{
+  border-bottom: 2px solid #f9fafa;
+}
+.border-bottom{
+  color: gray;
+}
+
+.image-text{/*founder image*/
+  font-weight: 400;
+  margin-left: 45px;
+  margin-top: 50px;
+ 
+  font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+.image-para{/*founder image para*/
+  color: gray;
+  
+   margin-top: 25px;
+   margin-left: 45px;
+   font-weight: 300;
+   font-size: 22px;
+}
+.about-button{/*about us button*/
+  font-size: 17px;
+    background: black;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-width: 0;
+    margin-left: 45px;
+    margin-top: 25px;
+}
+/*media quiry using*/
+@media(max-width:992px){
+  .image-text{
+    text-align: center;
+    margin-left: 0;
+  }
+  .image-para{
+    text-align: center;
+    margin: 0;
+  }
+  .button-cl{
+    text-align: center;
+    margin-left: 0;
+    margin-right:75px;
+  }
+}
+footer{
+  height: 335px;
+  background: black;
+  border-bottom:solid 1px gray;
+}
+.phone{
+  color: #f9fafa;
+}
+.contact{
+  font-size: 20px;
+    margin-top: 40px;
+  text-align: center;
+}
+.phone{
+  font-size: 17px;
+  margin-top: 25px;
+  text-align: center;
+}
+.insta{
+  margin-top: 45px;
+  text-align: center;
+}
+.last-para{
+  color: white;
+  background: black;
+  font-size: 12px;
+  padding-top: 25px;
+  height: 100px;
+  text-align: center;
+}
